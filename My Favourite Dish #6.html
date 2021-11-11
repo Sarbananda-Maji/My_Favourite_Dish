@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2021 by anonymous (http://jsbin.com/pucagizuda/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+    <!--Title of the Web Page-->
+  <title>My Favourite Dish</title>
+  <!--Internal CSS-->
+  <style>
+    body
+    {
+      background-color:#C2F6F7;
+    }
+    p
+    {
+      font-size:33px;
+    }
+    .ullists
+    {
+      font-size:26px;
+      font-family:"Comic Sans MS";
+    }
+    .ollists
+    {
+      font-size:26px;
+      font-family:"Comic Sans MS";
+    }
+    .links
+    {
+      font-size:25px;
+    }
+    #heading
+    {
+      font-size:35px;
+      color:#0008A4;
+      padding:15px 10px 20px 10px;
+    }
+    h3
+    {
+      font-size:32px;
+      color:#0008A4;
+      padding:20px 10px 20px 10px;
+    }
+    #floating
+    {
+      color:#0023FF;
+      font-size:38px;
+    }
+     img
+    {
+      width:100%;
+    }
+    #picture
+    {
+      border:5px solid black; 
+      min-width: 20px;
+      max-width: 750px;
+    }
+    #row::after
+    {
+      content:"";
+      display: table;
+      clear:both;
+    }
+    #column
+    {
+      float:left;
+      width:49%;
+      padding:38px 6px 6px 6px;
+    }
+    #sp
+    {
+      font-style: italic;
+      text-decoration:emphasised;
+    }
+    .sp1
+    {
+      font-style: normal;
+      color:red;
+    }
+    .sp9
+    {
+      text-decoration: underline;
+    }
+    @media screen and (min-width: 750px)
+    {
+      body{
+        background-image: url(https://images.creativemarket.com/0.1.0/ps/3651125/1820/1213/m1/fpnw/wm1/joyzkm0zflqdpt7akuo0gnnyvsgvancxgh6tzx5mbmydtn5sprpmino8qlgeirny-.jpg?1511857336&s=e9ed09c2e2ac61dc0ffc1422dadb664d);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+      }
+    }
+    @media screen and (max-width: 749px) and (min-width: 401px)
+    {
+      body{
+        background-image: url(https://i.pinimg.com/originals/ee/e9/59/eee9598c425187d42f7ff8733f39610a.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+      }
+      p{
+        font-size:30px;
+      }
+      .ullists
+      {
+        font-size:24px;
+        color: #B20764;
+      }
+      .ollists
+      {
+        font-size:24px;
+      }
+      .links
+      {
+        font-size:22px;
+      }
+      #heading
+      {
+        font-size:33px;
+      }
+      h3
+      {
+        font-size:31px;
+      }
+      #floating
+      {
+        font-size:31px;
+        color:green;
+      }
+    }
+    @media screen and (max-width: 400px)
+    {
+      body{
+        background-image: url(https://t4.ftcdn.net/jpg/02/22/17/97/240_F_222179720_h4HaoaN4ZSASTZ63GEZFLTzVnj9aElCl.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        font-size:;
+      }
+      p{
+        font-size:26px;
+      }
+      .ullists
+      {
+        font-size:21px;
+      }
+      .ollists
+      {
+        font-size:21px;
+        color: #4B0082;
+      }
+      .links
+      {
+        font-size:19px;
+      }
+      #heading
+      {
+        font-size:29px;
+        color: #191970;
+      }
+      h3
+      {
+        font-size:28px;
+      }
+      #floating
+      {
+        font-size:28px;
+      }
+      #video{
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <Header id="heading"> 
+<!--Hn eading of this web page-->
+  <center>
+    <h1><U>My Favourite Dish <em>Chilli Chicken</em></U></h1>
+  </center>
+    </Header>
+  <Main>
+  <!--About the Dish-->
+  <p><span class="sp1"><B>Chilli chicken</B></span> is a popular <span id="sp">Indo-Chinese</span> dish of chicken of <span id="sp">Hakka</span> Chinese heritage.
+    In India, this may include a variety of dry chicken preparations.
+    Though mainly <span id="sp">boneless chicken</span> is used in this dish, some people also use bone-in chicken too.<br><br>
+  <span id="sp"><B>Chilli chicken</B></span> comes in several variations with differences in spices & seasoning, as well as its <span id="sp">"sauce" & "dry"</span> variants with difference in their quantity of sauce or gravy.
+    The <span id="sp">South Asian</span> contributions of this dish are in the spices used, while the <span id="sp">Hakka</span> contributions include the <span id="sp" class="sp9">sweet & savoury</span> flavours along with the Chinese cooking techniques used in its preparation.</p>
+  <!--Why I like it so much-->
+  <p><B><em>Chilli Chicken</em></B> is my all time favourite dish as it include a variety of tastes like sweet, spicy & slightly sour crispy appetizer.
+    Which has a perfect balance of bell peppers, garlic, chilli sauce & soya sauce. 
+   Here you can enjoy the soft chicken piece inside a crispy layer. Which is been deep fried until crisp.
+  Later they are seasoned again in flavorful sauces such that we get a blance of sauces.
+  You can enjoy it any time you want, its taste will definitely pleased you. Love it. Enjoy it & Share it. </p>
+  <marquee id="floating">
+    <B>The Crispy Fried Saucy <em>Chilli Chicken</em> Recipe Is Hands Down The Best That You Can Make At Home </B>
+  </marquee>
+ <div id="row">
+  <!--Few pictures of the Dish-->
+     <div id="column"> 
+        <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2018/07/chilli-chicken-recipe-500x500.jpg" alt="Unable to load the image of Chilli chicken">
+      </div>
+     <div id="column">
+         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Chicken_Chili_HR2.jpg/800px-Chicken_Chili_HR2.jpg" alt="Unable to load the image of Chilli chicken"> 
+      </div>
+  </div>
+   <!--Ingredients for the dish-->
+  <h3>Ingredients required for <em>Chilli Chicken</em> &#x1F957;</h3>
+  <div class="ullists">
+  <!--This is unordered list-->
+  <ul style="list-style-image:url('heart.png');">
+    <li>666 grams chicken  &#x1F969;</li>
+    <li>2/3 cup corn flour  &#x1F33D;</li>
+    <li>2/3 teaspoon garlic paste  &#x1F425;</li>
+    <li>2 and 2/3 tablespoon green chilli  &#x1F336;</li>
+    <li>2 and 2/3 tablespoon vinegar  &#x1F944;</li>
+    <li>2/3 cup sunflower oil  &#x1F33B;</li> 
+    <li>1 and 1/4 egg  &#x1F95A;</li>
+    <li>2/3 teaspoon ginger paste  &#x1F372;</li>
+    <li>2 and 2/3 cup onion  &#x2714;</li>
+    <li>1 and 1/3 tablespoon soy sauce  &#x1F963;</li>
+    <li>1 and 1/4 handful spring onions  &#x1F932;</li>
+    <li>salt As required  &#x1F9C2;</li>
+  </ul>
+  </div>
+  <!--steps to prepare the dish-->
+  <h3>Steps for Preparation of <em>Chilli Chicken</em> &#x1F958;</h3>
+    <div class="ollists">
+  <!--This is ordered list-->
+  <ol type="i">
+    <li>Season the chicken with salt and pepper.&#x1F414;</li>
+    <li>Cut the chicken into thin strips then coat in the egg wash and flour.&#x1F95A;</li>
+    <li>Shallow fry for a few minutes on each side, until golden brown.&#x1F357;</li>
+    <li>Add the peppers and fry for another couple of minutes. Remove the chicken and peppers and set aside.&#x1F336;</li>
+    <li>In the same pan, add the garlic, red chilli, soy sauce, tomato purée, and water. Stir and simmer the mixture reduces and is thick and syrupy.&#x1F345;</li>
+    <li>Add back in the chicken and peppers and stir well in the sauce.&#x1F604;</li>
+    <li>Serve with rice.&#x1F35A;</li>
+    <li>Enjoy!&#x1F929;</li>
+  </ol>
+  </div>
+  <center>
+  <div id="picture">
+    <!--Complete Picture of this Dish-->
+  <img src="https://pupswithchopsticks.com/wp-content/uploads/chilli-chicken-done2-1.jpg" alt="Unable to load the image of Chilli chicken">
+      </div>
+    <div id="video">
+      <h3><u>Look! At The Video For Step By Step Visualisation(<em>Chilli Chicken</em>)</u></h3>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/pMCS1TR4Wyo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div></center>
+  <h3 style="color:red"><u>Check out 5 other ways to prepare <em>Chilli Chicken</em></u></h3>
+  </Main>
+  <Footer class="links">
+    <!--Some useful sites to compare this Dish-->
+  <ul style="list-style-image:url('arrow.png');">
+     <!--This is unordered list-->
+    <li><a href="https://myfoodstory.com/easy-chinese-chilli-chicken-dry/"> chinese chilli chicken dry</a></li>
+    <li><a href="https://www.funfoodfrolic.com/crispy-honey-chilli-chicken/#wprm-recipe-container-8091">Crispy Honey Chili Chicken</a></li>
+    <li><a href="https://www.sbs.com.au/food/recipes/sticky-chilli-chicken">Sticky chilli chicken</a></li>
+    <li><a href="https://rasamalaysia.com/thai-sweet-chili-chicken/#mv-creation-32">SWEET CHILI CHICKEN</a></li>
+    <li><a href="https://blog.licious.in/recipe/sichuan-chilli-chicken-stir-fry/">Sichuan Chilli Chicken Stir Fry</a></li>
+    </ul>
+  <!--a website that lists out all the various css properties "https://www.w3schools.com/cssref/"-->
+  </Footer>
+    </body>
+</html>
